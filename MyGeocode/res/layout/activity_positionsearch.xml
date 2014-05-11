@@ -1,0 +1,35 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="#ffffffff" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="#ffffff" >
+    	<EditText
+				android:id="@+id/editLatitude"
+   				android:layout_width="80pt"
+   				android:layout_height="wrap_content"
+   				android:hint="위도 입력"
+   				android:text=""
+   				android:textSize="16dp" />
+    	<EditText
+				android:id="@+id/editLongitude"
+   				android:layout_width="80pt"
+   				android:layout_height="wrap_content"
+   				android:hint="경도 입력"
+   				android:text=""
+   				android:textSize="16dp" />
+    </LinearLayout>
+	
+    <Button
+        android:id="@+id/btnSearchtoPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="검색" />
+
+</LinearLayout>

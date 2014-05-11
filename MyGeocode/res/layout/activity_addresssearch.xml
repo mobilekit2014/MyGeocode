@@ -1,0 +1,23 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="#ffffffff" >
+
+    <EditText
+			android:id="@+id/editAddress"
+   			android:layout_width="match_parent"
+   			android:layout_height="wrap_content"
+   			android:hint="주소 입력"
+   			android:text=""
+   			android:textSize="16dp" />
+	
+    <Button
+        android:id="@+id/btnSearchtoAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="검색" />
+
+</LinearLayout>
